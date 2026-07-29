@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Link to sitemap
+Sitemap: https://www.kmshospitals.com/sitemap.xml

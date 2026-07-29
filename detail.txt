@@ -54,6 +54,42 @@ Patient-Centred Care
 Pharmacy Services
 Compassionate Nursing Staff
 Quality Treatment
+
+Dentistry Department
+Our Dentistry Department provides comprehensive oral healthcare using modern equipment and advanced treatment techniques. We focus on accurate diagnosis, painless procedures, and personalised care to restore oral health and confident smiles.
+
+दंत विभाग / Dentistry Department (हिन्दी और अंग्रेज़ी)
+हमारा दन्त विभाग आधुनिक उपकरणों और उन्नत उपचार तकनीकों के साथ व्यापक मौखिक स्वास्थ्य सेवा प्रदान करता है। हम सटीक निदान, पीड़ारहित प्रक्रियाओं और व्यक्तिगत देखभाल पर ध्यान देते हैं ताकि आपके दन्त स्वास्थ्य और आत्मविश्वास भरी मुस्कान को बहाल किया जा सके।
+
+Our Dental Services / हमारे दन्त सेवाएँ:
+- Dental Trauma Management / डेंटल ट्रॉमा प्रबंधन
+- Maxillofacial Trauma Care / मैक्सिलोफेशियल ट्रॉमा केयर
+- Primary Wound Closure / प्राथमिक घाव बंद करना
+- Tooth Extraction (Simple & Surgical) / दांत निकालना (साधारण और सर्जिकल)
+- Dental Restorations (Tooth-Coloured Fillings) / दन्त बहाली (टूथ-कलर्ड फिलिंग)
+- Root Canal Treatment (RCT) / रूट कैनाल ट्रीटमेंट (आरसीटी)
+- Scaling & Polishing / स्केलिंग और पॉलिशिंग
+- Crown & Bridge / क्राउन और ब्रिज
+- Complete & Partial Dentures / पूर्ण और आंशिक डेंचर
+- Cosmetic Dentistry / कॉस्मेटिक डेंटिस्ट्री
+- Teeth Whitening / दांतों का व्हाइटनिंग
+- Veneers / वीनियर्स
+- Dental Implants / डेंटल इम्प्लांट
+- Pediatric Dentistry / बाल दंत चिकित्सा
+- Gum Disease Treatment / मसूड़ों की बीमारी का उपचार
+- Oral Surgery / ओरल सर्जरी
+- Wisdom Tooth Removal / विज्डम टुथ हटाना
+- Dental X-Ray & Diagnosis / डेंटल एक्स-रे और निदान
+- Preventive Dental Care / निवारक दन्त देखभाल
+- Emergency Dental Care / आपातकालीन दन्त देखभाल
+
+Booking & Feedback (Google Forms)
+For online booking and feedback, use the hospital's Google Forms (embedded on the website). Replace FORM_BOOKING_ID and FORM_FEEDBACK_ID in the embed HTML with your real Google Form IDs created from Google Forms > Send > Embed.
+
+- Booking Form (English/Hindi): https://docs.google.com/forms/d/e/FORM_BOOKING_ID/viewform?usp=sf_link
+- Feedback Form (English/Hindi): https://docs.google.com/forms/d/e/FORM_FEEDBACK_ID/viewform?usp=sf_link
+
+Call for online consultation / ऑनलाइन कन्सल्टेशन के लिए कॉल करें: 9006008932
 Emergency Care
 Medical emergencies can happen anytime. Our emergency department operates 24 hours a day with trained doctors, nurses, and essential medical facilities to provide immediate care.
 Intensive Care Unit (ICU)
