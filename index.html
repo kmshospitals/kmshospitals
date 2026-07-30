@@ -3,312 +3,282 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Krishna Multispeciality Hospital offers compassionate, modern, and affordable healthcare in Sitamarhi, Bihar."
-    />
-    <title>Krishna Multispeciality Hospital</title>
+    <title>Krishna Multispeciality Hospital — Sitamarhi | 24×7 Multispeciality Care</title>
+    <meta name="description" content="Krishna Multispeciality Hospital, Sitamarhi — compassionate, affordable, 24×7 multispeciality healthcare. Dentistry, General Medicine, Surgery, ICU, Emergency & Trauma, Obstetrics. Call +91 9006008932." />
+    <meta name="keywords" content="Sitamarhi hospital, multispeciality hospital Sitamarhi, Sitamarhi dentist, emergency care Sitamarhi, ICU Sitamarhi, Krishna Multispeciality Hospital" />
+    <meta name="author" content="Krishna Multispeciality Hospital" />
+    <link rel="canonical" href="https://www.kmshospitals.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1f8a54" />
+
+    <meta property="og:site_name" content="Krishna Multispeciality Hospital" />
+    <meta property="og:title" content="Krishna Multispeciality Hospital — Sitamarhi" />
+    <meta property="og:description" content="Compassion • Care • Excellence. 24×7 multispeciality healthcare in Sitamarhi, Bihar." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kmshospitals.com/" />
+    <meta property="og:image" content="https://www.kmshospitals.com/assets/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Krishna Multispeciality Hospital — Sitamarhi" />
+    <meta name="twitter:description" content="24×7 multispeciality healthcare in Sitamarhi. Your Health, Our Priority." />
+    <meta name="twitter:image" content="https://www.kmshospitals.com/assets/og-image.jpg" />
+
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+      (function () { try { if ((localStorage.getItem('kms-lang') || 'en') === 'hi') document.documentElement.classList.add('preload-hi'); } catch (e) {} })();
+    </script>
+    <style>.preload-hi .lang-en{display:none}.preload-hi .lang-hi{display:revert}</style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hospital",
+      "name": "Krishna Multispeciality Hospital",
+      "url": "https://www.kmshospitals.com/",
+      "logo": "https://www.kmshospitals.com/assets/logo.png",
+      "image": "https://www.kmshospitals.com/assets/og-image.jpg",
+      "telephone": "+919006008932",
+      "email": "kmshospital7@gmail.com",
+      "slogan": "Your Health, Our Priority.",
+      "medicalSpecialty": ["Dentistry","GeneralMedicine","Surgical","Emergency","Obstetric"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ring Bandh, Mathura High School Road, Near Narayan Vivah Bhawan",
+        "addressLocality": "Sitamarhi",
+        "addressRegion": "Bihar",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00", "closes": "23:59"
+      },
+      "availableService": [
+        {"@type":"MedicalProcedure","name":"Emergency & Trauma Care"},
+        {"@type":"MedicalProcedure","name":"Intensive Care Unit (ICU)"},
+        {"@type":"MedicalProcedure","name":"Dental Care"},
+        {"@type":"MedicalProcedure","name":"Obstetrics & Gynaecology"}
+      ]
+    }
+    </script>
   </head>
   <body>
-    <header class="topbar">
-      <div class="container topbar-flex">
-        <a class="brand" href="#home">
-          <span class="brand-title">Krishna Multispeciality Hospital</span>
-          <span class="brand-subtitle lang-en">Compassion • Care • Excellence</span>
-          <span class="brand-subtitle lang-hi">करुणा • देखभाल • उत्कृष्टता</span>
-        </a>
-        <div class="topbar-actions">
-          <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
-            <span class="lang-en">हिन्दी</span>
-            <span class="lang-hi">English</span>
-          </button>
-          <a class="btn btn-call" href="tel:+919006008932">Call Now</a>
-        </div>
-      </div>
-    </header>
+    <div class="preloader" id="preloader"></div>
+    <div id="site-header"></div>
 
-    <nav class="nav-shell">
-      <div class="container nav-flex">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#why-us" class="nav-link">Why Us</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-    </nav>
-
-    <main id="home">
+    <main>
+      <!-- HERO -->
       <section class="hero">
         <div class="container hero-grid">
-          <div class="hero-content">
-            <p class="eyebrow lang-en">Complete care for you and your family</p>
-            <p class="eyebrow lang-hi">आप और आपके परिवार के लिए पूर्ण देखभाल</p>
-            <h1 class="lang-en">Your Health, Our Priority.</h1>
-            <h1 class="lang-hi">आपका स्वास्थ्य, हमारी प्राथमिकता।</h1>
-            <p class="hero-text lang-en">
-              We believe every patient deserves expert treatment, meaningful compassion, and a healing experience that feels personal.
-            </p>
-            <p class="hero-text lang-hi">
-              हम मानते हैं कि हर मरीज को विशेषज्ञ उपचार, सच्ची करुणा और एक ऐसा उपचार अनुभव मिले जो व्यक्तिगत हो।
-            </p>
+          <div class="hero-content reveal">
+            <span class="eyebrow"><span class="lang-en">Complete care for you & your family</span><span class="lang-hi">आप और आपके परिवार के लिए पूर्ण देखभाल</span></span>
+            <h1><span class="lang-en">Your Health, <span class="grad">Our Priority.</span></span><span class="lang-hi">आपका स्वास्थ्य, <span class="grad">हमारी प्राथमिकता।</span></span></h1>
+            <p class="hero-text lang-en">At Krishna Multispeciality Hospital we blend advanced technology with genuine compassion — delivering safe, effective and affordable care for every patient in Sitamarhi.</p>
+            <p class="hero-text lang-hi">कृष्ण मल्टीस्पेशलिटी हॉस्पिटल में हम उन्नत तकनीक को सच्ची करुणा के साथ जोड़ते हैं — सीतामढ़ी के हर मरीज के लिए सुरक्षित, प्रभावी और किफायती देखभाल।</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#contact">Book Appointment</a>
-              <a class="btn btn-secondary" href="#services">Explore Services</a>
+              <a class="btn btn-primary btn-lg" href="booking.html"><span class="lang-en">Book Appointment</span><span class="lang-hi">अपॉइंटमेंट बुक करें</span></a>
+              <a class="btn btn-secondary btn-lg" href="tel:+919006008932"><span>📞</span><span class="lang-en">+91 9006008932</span><span class="lang-hi">+91 9006008932</span></a>
             </div>
-            <div class="hero-quote">
-              <p class="lang-en">“Healing is a matter of time, but it is sometimes also a matter of opportunity.”</p>
-              <p class="lang-hi">“ठिकाना समय का मामला है, पर कभी-कभी यह अवसर का भी मामला होता है।”</p>
+            <div class="hero-trust">
+              <span>🏥 <b>15+</b> <span class="lang-en">Beds</span><span class="lang-hi">बिस्तर</span></span>
+              <span>🚑 <b>24×7</b> <span class="lang-en">Emergency</span><span class="lang-hi">आपातकाल</span></span>
+              <span>🩺 <span class="lang-en">Experienced Specialists</span><span class="lang-hi">अनुभवी विशेषज्ञ</span></span>
             </div>
           </div>
-          <div class="hero-card">
-            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Hospital care" />
-            <div class="hero-card-body">
-              <h3 class="lang-en">24/7 Emergency Support</h3>
-              <h3 class="lang-hi">24/7 आपातकालीन सहायता</h3>
-              <p class="lang-en">Immediate response, trusted specialists, and advanced care when it matters most.</p>
-              <p class="lang-hi">सबसे महत्वपूर्ण समय पर त्वरित प्रतिक्रिया, विश्वसनीय विशेषज्ञ और उन्नत देखभाल।</p>
+          <div class="hero-visual reveal delay-1">
+            <div class="hero-photo">
+              <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=900&q=80" alt="Doctors caring for a patient at Krishna Multispeciality Hospital" loading="eager" />
+            </div>
+            <div class="hero-badge">
+              <span class="dot"></span>
+              <span><b class="lang-en">Open 24 Hours</b><b class="lang-hi">24 घंटे खुला</b><small class="lang-en">Emergency ready</small><small class="lang-hi">आपातकाल तैयार</small></span>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- QUOTE MARQUEE -->
+      <div class="quote-strip" aria-hidden="true">
+        <div class="quote-track">
+          <span>The good physician treats the disease; the great physician treats the patient.</span>
+          <span>Wherever the art of medicine is loved, there is also a love of humanity.</span>
+          <span>Healing is a matter of time, but also of opportunity.</span>
+          <span>Compassion • Care • Excellence</span>
+          <span>The good physician treats the disease; the great physician treats the patient.</span>
+          <span>Wherever the art of medicine is loved, there is also a love of humanity.</span>
+          <span>Healing is a matter of time, but also of opportunity.</span>
+          <span>Compassion • Care • Excellence</span>
+        </div>
+      </div>
+
+      <!-- STATS -->
       <section class="stats-strip">
         <div class="container stats-grid">
-          <div>
-            <strong>15+</strong>
-            <span class="lang-en">Hospital Beds</span>
-            <span class="lang-hi">अस्पताल बिस्तर</span>
-          </div>
-          <div>
-            <strong>24×7</strong>
-            <span class="lang-en">Emergency Services</span>
-            <span class="lang-hi">आपातकालीन सेवाएँ</span>
-          </div>
-          <div>
-            <strong>100%</strong>
-            <span class="lang-en">Patient Focus</span>
-            <span class="lang-hi">मरीज-केंद्रित देखभाल</span>
-          </div>
-          <div>
-            <strong>Trusted</strong>
-            <span class="lang-en">Multispeciality Care</span>
-            <span class="lang-hi">बहु-विशेषज्ञता देखभाल</span>
-          </div>
+          <div><strong><span data-count="15" data-suffix="+">15+</span></strong><span class="lang-en">Hospital Beds</span><span class="lang-hi">अस्पताल बिस्तर</span></div>
+          <div><strong><span data-count="24" data-suffix="×7">24×7</span></strong><span class="lang-en">Emergency Services</span><span class="lang-hi">आपातकालीन सेवाएँ</span></div>
+          <div><strong><span data-count="18" data-suffix="+">18+</span></strong><span class="lang-en">Dental Procedures</span><span class="lang-hi">दंत प्रक्रियाएँ</span></div>
+          <div><strong><span data-count="100" data-suffix="%">100%</span></strong><span class="lang-en">Patient Focus</span><span class="lang-hi">मरीज-केंद्रित</span></div>
         </div>
       </section>
 
-      <section class="section" id="about">
-        <div class="container section-grid">
-          <div>
-            <p class="eyebrow">About Us</p>
-            <h2 class="lang-en">A trusted healthcare destination for modern families</h2>
-            <h2 class="lang-hi">आधुनिक परिवारों के लिए एक भरोसेमंद स्वास्थ्य गंतव्य</h2>
-            <p class="lang-en">
-              Krishna Multispeciality Hospital is dedicated to providing comprehensive medical care under one roof. We blend advanced technology with compassionate professionals to deliver safe, effective, and affordable treatment.
-            </p>
-            <p class="lang-hi">
-              कृष्ण मल्टीस्पेशलिटी हॉस्पिटल एक ही छत के नीचे व्यापक चिकित्सा देखभाल प्रदान करने के लिए समर्पित है। हम उन्नत तकनीक और करुणापूर्ण विशेषज्ञों को जोड़कर सुरक्षित, प्रभावी और किफायती उपचार प्रदान करते हैं।
-            </p>
+      <!-- ABOUT PREVIEW -->
+      <section class="section">
+        <div class="container split-grid">
+          <div class="media-frame reveal">
+            <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80" alt="Compassionate care team" loading="lazy" />
+          </div>
+          <div class="reveal delay-1">
+            <span class="eyebrow"><span class="lang-en">Welcome</span><span class="lang-hi">स्वागत है</span></span>
+            <h2 class="lang-en">A trusted healthcare home for modern families</h2>
+            <h2 class="lang-hi">आधुनिक परिवारों के लिए एक भरोसेमंद स्वास्थ्य केंद्र</h2>
+            <p class="lang-en">Krishna Multispeciality Hospital is dedicated to comprehensive medical care under one roof. We are committed to delivering high-quality, affordable and compassionate healthcare — whether you need emergency care, surgery, routine check-ups or specialised treatment.</p>
+            <p class="lang-hi">कृष्ण मल्टीस्पेशलिटी हॉस्पिटल एक ही छत के नीचे व्यापक चिकित्सा देखभाल के लिए समर्पित है। चाहे आपातकालीन देखभाल हो, सर्जरी, नियमित जाँच या विशेष उपचार — हम उच्च गुणवत्ता, किफायती और करुणामय स्वास्थ्य सेवा देने के लिए प्रतिबद्ध हैं।</p>
             <div class="pill-list">
-              <span class="pill lang-en">Patient-centred care</span>
-              <span class="pill lang-hi">मरीज-केंद्रित देखभाल</span>
-              <span class="pill lang-en">Professional ethics</span>
-              <span class="pill lang-hi">व्यावसायिक नैतिकता</span>
-              <span class="pill lang-en">Advanced diagnostics</span>
-              <span class="pill lang-hi">उन्नत निदान</span>
+              <span class="pill"><span class="lang-en">🤝 Patient-centred care</span><span class="lang-hi">🤝 मरीज-केंद्रित देखभाल</span></span>
+              <span class="pill"><span class="lang-en">🔬 Advanced diagnostics</span><span class="lang-hi">🔬 उन्नत निदान</span></span>
+              <span class="pill"><span class="lang-en">💊 In-house pharmacy</span><span class="lang-hi">💊 आंतरिक फार्मेसी</span></span>
             </div>
-          </div>
-          <div class="card image-card">
-            <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80" alt="Doctors and patients" />
+            <p style="margin-top:1.4rem"><a class="btn btn-primary" href="about.html"><span class="lang-en">More About Us →</span><span class="lang-hi">हमारे बारे में और →</span></a></p>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt" id="services">
+      <!-- SERVICES SLIDER -->
+      <section class="section section-alt">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Our Services</p>
+          <div class="section-heading reveal">
+            <span class="eyebrow"><span class="lang-en">Our Services</span><span class="lang-hi">हमारी सेवाएँ</span></span>
             <h2 class="lang-en">Care designed for every stage of life</h2>
             <h2 class="lang-hi">जीवन के हर चरण के लिए डिज़ाइन की गई देखभाल</h2>
           </div>
-          <div class="card-grid">
-            <article class="card service-card">
-              <h3 class="lang-en">General Medicine</h3>
-              <h3 class="lang-hi">सामान्य चिकित्सा</h3>
-              <p class="lang-en">Comprehensive evaluation and treatment for common illnesses and long-term health concerns.</p>
-              <p class="lang-hi">सामान्य बीमारियों और दीर्घकालिक स्वास्थ्य समस्याओं के लिए व्यापक मूल्यांकन और उपचार।</p>
-            </article>
-            <article class="card service-card">
-              <h3 class="lang-en">Emergency & Trauma Care</h3>
-              <h3 class="lang-hi">आपातकालीन और आघात देखभाल</h3>
-              <p class="lang-en">Fast, reliable support for urgent health situations and critical emergencies.</p>
-              <p class="lang-hi">तत्काल स्वास्थ्य स्थितियों और गंभीर आपातकाल के लिए तेज और भरोसेमंद सहायता।</p>
-            </article>
-            <article class="card service-card">
-              <h3 class="lang-en">ICU Care</h3>
-              <h3 class="lang-hi">आईसीयू देखभाल</h3>
-              <p class="lang-en">Advanced monitoring and life-support systems for patients in critical conditions.</p>
-              <p class="lang-hi">गंभीर स्थितियों वाले रोगियों के लिए उन्नत मॉनिटरिंग और जीवन-सहायता प्रणालियाँ।</p>
-            </article>
-            <article class="card service-card">
-              <h3 class="lang-en">Dental Care</h3>
-              <h3 class="lang-hi">दंत देखभाल</h3>
-              <p class="lang-en">Preventive, restorative, and cosmetic dental care delivered with comfort and precision.</p>
-              <p class="lang-hi">सुविधा और सटीकता के साथ दी जाने वाली निवारक, पुनर्स्थापनीय और सौंदर्य दंत देखभाल।</p>
-            </article>
-            <article class="card service-card">
-              <h3 class="lang-en">Obstetrics & Gynaecology</h3>
-              <h3 class="lang-hi">प्रसव-विज्ञान और स्त्री रोग</h3>
-              <p class="lang-en">Safe maternity care, reproductive health support, and women’s wellness services.</p>
-              <p class="lang-hi">सुरक्षित प्रसव देखभाल, प्रजनन स्वास्थ्य सहायता और महिलाओं की सेहत सेवाएँ।</p>
-            </article>
-            <article class="card service-card">
-              <h3 class="lang-en">Physiotherapy & Pharmacy</h3>
-              <h3 class="lang-hi">भौतिक चिकित्सा और फार्मेसी</h3>
-              <p class="lang-en">Recovery-focused therapy and genuine medicines available under one roof.</p>
-              <p class="lang-hi">वसूली-केंद्रित थेरेपी और एक ही छत के नीचे उपलब्ध विश्वसनीय दवाएँ।</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="why-us">
-        <div class="container section-grid">
-          <div class="card image-card">
-            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="Modern hospital interior" />
-          </div>
-          <div>
-            <p class="eyebrow">Why Choose Us</p>
-            <h2 class="lang-en">Because your well-being deserves the best</h2>
-            <h2 class="lang-hi">क्योंकि आपकी भलाई के लिए सर्वश्रेष्ठ चाहिए</h2>
-            <ul class="feature-list">
-              <li class="lang-en">Experienced doctors and specialists</li>
-              <li class="lang-hi">अनुभवी डॉक्टर और विशेषज्ञ</li>
-              <li class="lang-en">Modern equipment and clean facilities</li>
-              <li class="lang-hi">आधुनिक उपकरण और स्वच्छ सुविधाएँ</li>
-              <li class="lang-en">Affordable treatment with transparent care</li>
-              <li class="lang-hi">साफ-सुथरी और किफायती उपचार प्रक्रिया</li>
-              <li class="lang-en">24×7 emergency support and compassionate nursing</li>
-              <li class="lang-hi">24×7 आपातकालीन सहायता और करुणामयी नर्सिंग</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Patient Care</p>
-            <h2 class="lang-en">Every patient is treated with dignity and attention</h2>
-            <h2 class="lang-hi">हर मरीज को गरिमा और ध्यान के साथ देखा जाता है</h2>
-          </div>
-          <div class="card-grid three-up">
-            <article class="card info-card">
-              <h3 class="lang-en">Emergency Care</h3>
-              <h3 class="lang-hi">आपातकालीन देखभाल</h3>
-              <p class="lang-en">Round-the-clock care, rapid diagnosis, and immediate support for urgent medical needs.</p>
-              <p class="lang-hi">राउंड-दि-घंटे देखभाल, त्वरित निदान और आपात चिकित्सा आवश्यकताओं के लिए तुरंत सहायता।</p>
-            </article>
-            <article class="card info-card">
-              <h3 class="lang-en">ICU Support</h3>
-              <h3 class="lang-hi">आईसीयू सहायता</h3>
-              <p class="lang-en">Advanced intensive care with skilled medical teams and continuous monitoring.</p>
-              <p class="lang-hi">कुशल चिकित्सा दल और निरंतर मॉनिटरिंग के साथ उन्नत गहन देखभाल।</p>
-            </article>
-            <article class="card info-card">
-              <h3 class="lang-en">In-House Pharmacy</h3>
-              <h3 class="lang-hi">आंतरिक फार्मेसी</h3>
-              <p class="lang-en">Convenient access to genuine medicines and healthcare products at the hospital.</p>
-              <p class="lang-hi">अस्पताल में ही असली दवाइयों और स्वास्थ्य उत्पादों तक आसान पहुँच।</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Testimonials</p>
-            <h2 class="lang-en">What patients say about us</h2>
-            <h2 class="lang-hi">रोगी हमारे बारे में क्या कहते हैं</h2>
-          </div>
-          <div class="card-grid three-up">
-            <blockquote class="card quote-card">
-              <p class="lang-en">“Excellent medical care with a friendly staff and a calm environment.”</p>
-              <p class="lang-hi">“मित्रतापूर्ण स्टाफ और शांत वातावरण के साथ उत्कृष्ट चिकित्सा देखभाल।”</p>
-              <footer>— Priya, Sitamarhi</footer>
-            </blockquote>
-            <blockquote class="card quote-card">
-              <p class="lang-en">“Professional doctors, clean surroundings, and compassionate service.”</p>
-              <p class="lang-hi">“व्यावसायिक डॉक्टर, स्वच्छ वातावरण और करुणामय सेवा।”</p>
-              <footer>— Rakesh, Bihar</footer>
-            </blockquote>
-            <blockquote class="card quote-card">
-              <p class="lang-en">“Affordable treatment and attentive care that truly made a difference.”</p>
-              <p class="lang-hi">“किफायती उपचार और सचमुच फर्क लाने वाली संवेदनशील देखभाल।”</p>
-              <footer>— Anjali, Muzaffarpur</footer>
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-alt" id="contact">
-        <div class="container contact-grid">
-          <div>
-            <p class="eyebrow">Contact Us</p>
-            <h2 class="lang-en">We are here to help you with every step of your care journey</h2>
-            <h2 class="lang-hi">हम आपकी देखभाल यात्रा के हर चरण में आपकी मदद के लिए यहाँ हैं</h2>
-            <ul class="contact-list">
-              <li><strong class="lang-en">Phone:</strong><strong class="lang-hi">फोन:</strong> +91 9006008932 | +91 9122295023</li>
-              <li><strong class="lang-en">Email:</strong><strong class="lang-hi">ईमेल:</strong> kmshospital7@gmail.com</li>
-              <li><strong class="lang-en">Address:</strong><strong class="lang-hi">पता:</strong> Ring Bandh, Mathura High School Road, Near Narayan Vivah Bhawan, Sitamarhi, Bihar, India</li>
-              <li><strong class="lang-en">Working Hours:</strong><strong class="lang-hi">कार्य समय:</strong> Open 24 Hours, Monday–Sunday</li>
-            </ul>
-            <div class="form-links">
-              <a class="btn btn-primary" href="https://forms.gle/" target="_blank" rel="noopener">Book Appointment</a>
-              <a class="btn btn-secondary" href="https://forms.gle/" target="_blank" rel="noopener">Share Feedback</a>
+          <div class="slider reveal" data-slider data-perview="3" data-autoplay="true">
+            <div class="slider-viewport">
+              <div class="slider-track">
+                <article class="card service-card"><div class="ic">🩺</div><h3 class="lang-en">General Medicine</h3><h3 class="lang-hi">सामान्य चिकित्सा</h3><p class="lang-en">Comprehensive evaluation and treatment for common illnesses and long-term health concerns.</p><p class="lang-hi">सामान्य बीमारियों और दीर्घकालिक समस्याओं के लिए व्यापक मूल्यांकन और उपचार।</p></article>
+                <article class="card service-card"><div class="ic">🔪</div><h3 class="lang-en">General Surgery</h3><h3 class="lang-hi">सामान्य सर्जरी</h3><p class="lang-en">Safe surgical procedures with modern equipment and experienced surgical teams.</p><p class="lang-hi">आधुनिक उपकरणों और अनुभवी सर्जिकल टीम के साथ सुरक्षित सर्जरी।</p></article>
+                <article class="card service-card"><div class="ic">🚑</div><h3 class="lang-en">Emergency & Trauma</h3><h3 class="lang-hi">आपातकाल एवं ट्रॉमा</h3><p class="lang-en">Fast, reliable 24×7 support for urgent health situations and critical emergencies.</p><p class="lang-hi">तत्काल स्वास्थ्य स्थितियों के लिए 24×7 तेज और भरोसेमंद सहायता।</p></article>
+                <article class="card service-card"><div class="ic">💗</div><h3 class="lang-en">ICU Care</h3><h3 class="lang-hi">आईसीयू देखभाल</h3><p class="lang-en">Advanced monitoring and life-support systems for patients in critical conditions.</p><p class="lang-hi">गंभीर स्थितियों वाले रोगियों के लिए उन्नत मॉनिटरिंग और जीवन-सहायता।</p></article>
+                <article class="card service-card"><div class="ic">🦷</div><h3 class="lang-en">Dental Care</h3><h3 class="lang-hi">दंत देखभाल</h3><p class="lang-en">Preventive, restorative and cosmetic dentistry, plus dental & maxillofacial trauma care.</p><p class="lang-hi">निवारक, पुनर्स्थापनीय व कॉस्मेटिक दंत चिकित्सा एवं ट्रॉमा केयर।</p></article>
+                <article class="card service-card"><div class="ic">🤰</div><h3 class="lang-en">Obstetrics & Gynae</h3><h3 class="lang-hi">प्रसूति एवं स्त्री रोग</h3><p class="lang-en">Safe maternity, normal delivery, reproductive health and women's wellness services.</p><p class="lang-hi">सुरक्षित प्रसव, सामान्य डिलीवरी, प्रजनन स्वास्थ्य और महिला सेहत सेवाएँ।</p></article>
+                <article class="card service-card"><div class="ic">🧘</div><h3 class="lang-en">Physiotherapy</h3><h3 class="lang-hi">फिजियोथेरेपी</h3><p class="lang-en">Recovery-focused therapy to restore mobility, strength and quality of life.</p><p class="lang-hi">गतिशीलता, शक्ति और जीवन की गुणवत्ता बहाल करने वाली रिकवरी थेरेपी।</p></article>
+                <article class="card service-card"><div class="ic">💊</div><h3 class="lang-en">Pharmacy</h3><h3 class="lang-hi">फार्मेसी</h3><p class="lang-en">In-house pharmacy with genuine medicines and healthcare products.</p><p class="lang-hi">असली दवाइयों और स्वास्थ्य उत्पादों के साथ आंतरिक फार्मेसी।</p></article>
+                <article class="card service-card"><div class="ic">📋</div><h3 class="lang-en">Health Check-ups</h3><h3 class="lang-hi">स्वास्थ्य जाँच</h3><p class="lang-en">Preventive health check-up packages to keep you and your family well.</p><p class="lang-hi">आपको और आपके परिवार को स्वस्थ रखने के लिए निवारक जाँच पैकेज।</p></article>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn" data-prev aria-label="Previous">‹</button>
+              <div class="slider-dots"></div>
+              <button class="slider-btn" data-next aria-label="Next">›</button>
             </div>
           </div>
-          <div class="card map-card">
-            <iframe
-              title="Hospital location"
-              src="https://www.google.com/maps?q=Sitamarhi%20Bihar%20India&output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <p style="text-align:center;margin-top:1.6rem"><a class="btn btn-secondary" href="services.html"><span class="lang-en">View All Services</span><span class="lang-hi">सभी सेवाएँ देखें</span></a></p>
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE US -->
+      <section class="section">
+        <div class="container split-grid">
+          <div class="reveal">
+            <span class="eyebrow"><span class="lang-en">Why Choose Us</span><span class="lang-hi">हमें क्यों चुनें</span></span>
+            <h2 class="lang-en">Because your well-being deserves the best</h2>
+            <h2 class="lang-hi">क्योंकि आपकी भलाई सर्वश्रेष्ठ की हकदार है</h2>
+            <ul class="feature-list">
+              <li><span class="lang-en">Experienced doctors & specialists</span><span class="lang-hi">अनुभवी डॉक्टर और विशेषज्ञ</span></li>
+              <li><span class="lang-en">Modern medical equipment & advanced ICU</span><span class="lang-hi">आधुनिक उपकरण और उन्नत आईसीयू</span></li>
+              <li><span class="lang-en">24×7 emergency services & compassionate nursing</span><span class="lang-hi">24×7 आपातकालीन सेवाएँ और करुणामय नर्सिंग</span></li>
+              <li><span class="lang-en">Affordable, hygienic & patient-centred care</span><span class="lang-hi">किफायती, स्वच्छ और मरीज-केंद्रित देखभाल</span></li>
+              <li><span class="lang-en">Pharmacy services & quality treatment</span><span class="lang-hi">फार्मेसी सेवाएँ और गुणवत्तापूर्ण उपचार</span></li>
+            </ul>
+          </div>
+          <div class="media-frame reveal delay-1">
+            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="Modern hospital interior" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <!-- DOCTORS PREVIEW -->
+      <section class="section section-navy">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow"><span class="lang-en">Our Team</span><span class="lang-hi">हमारी टीम</span></span>
+            <h2 class="lang-en">Meet our specialists</h2>
+            <h2 class="lang-hi">हमारे विशेषज्ञों से मिलें</h2>
+            <p class="lang-en">A dedicated team of experienced doctors, surgeons and caregivers.</p>
+            <p class="lang-hi">अनुभवी डॉक्टरों, सर्जनों और देखभालकर्ताओं की एक समर्पित टीम।</p>
+          </div>
+          <div class="slider reveal" data-slider data-perview="4" data-autoplay="true">
+            <div class="slider-viewport">
+              <div class="slider-track">
+                <article class="card doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80" alt="Physician"><span class="dept-tag lang-en">General Medicine</span><span class="dept-tag lang-hi">सामान्य चिकित्सा</span></div><h3>Consultant Physician</h3><p class="role lang-en">Internal Medicine</p><p class="role lang-hi">आंतरिक चिकित्सा</p><p class="quals">MBBS, MD</p></article>
+                <article class="card doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=500&q=80" alt="Surgeon"><span class="dept-tag lang-en">Surgery</span><span class="dept-tag lang-hi">सर्जरी</span></div><h3>Consultant Surgeon</h3><p class="role lang-en">General Surgery</p><p class="role lang-hi">सामान्य सर्जरी</p><p class="quals">MBBS, MS</p></article>
+                <article class="card doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=500&q=80" alt="Gynaecologist"><span class="dept-tag lang-en">Obstetrics</span><span class="dept-tag lang-hi">प्रसूति</span></div><h3>Obstetrician & Gynaecologist</h3><p class="role lang-en">Maternity & Women's Health</p><p class="role lang-hi">मातृत्व एवं महिला स्वास्थ्य</p><p class="quals">MBBS, DGO</p></article>
+                <article class="card doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=500&q=80" alt="Dental Surgeon"><span class="dept-tag lang-en">Dentistry</span><span class="dept-tag lang-hi">दंत चिकित्सा</span></div><h3>Dental Surgeon</h3><p class="role lang-en">Oral & Maxillofacial</p><p class="role lang-hi">ओरल एवं मैक्सिलोफेशियल</p><p class="quals">BDS / MDS</p></article>
+                <article class="card doctor-card"><div class="doctor-photo"><img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=500&q=80" alt="Intensivist"><span class="dept-tag lang-en">ICU</span><span class="dept-tag lang-hi">आईसीयू</span></div><h3>Critical Care Physician</h3><p class="role lang-en">Intensive Care</p><p class="role lang-hi">गहन चिकित्सा</p><p class="quals">MBBS, IDCCM</p></article>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn" data-prev aria-label="Previous">‹</button>
+              <div class="slider-dots"></div>
+              <button class="slider-btn" data-next aria-label="Next">›</button>
+            </div>
+          </div>
+          <p style="text-align:center;margin-top:1.6rem"><a class="btn btn-ghost" href="doctors.html"><span class="lang-en">See Full Team</span><span class="lang-hi">पूरी टीम देखें</span></a></p>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow"><span class="lang-en">Testimonials</span><span class="lang-hi">प्रशंसापत्र</span></span>
+            <h2 class="lang-en">What our patients say</h2>
+            <h2 class="lang-hi">हमारे मरीज क्या कहते हैं</h2>
+          </div>
+          <div class="slider reveal" data-slider data-perview="3" data-autoplay="true">
+            <div class="slider-viewport">
+              <div class="slider-track">
+                <blockquote class="card quote-card"><div class="stars">★★★★★</div><p class="lang-en">"Excellent medical care with friendly staff. Highly recommended."</p><p class="lang-hi">"मित्रवत स्टाफ के साथ उत्कृष्ट चिकित्सा देखभाल। अत्यधिक अनुशंसित।"</p><div class="who"><span class="avatar">P</span><span><b>Priya</b><br><small>Sitamarhi</small></span></div></blockquote>
+                <blockquote class="card quote-card"><div class="stars">★★★★★</div><p class="lang-en">"Professional doctors and a clean hospital environment."</p><p class="lang-hi">"पेशेवर डॉक्टर और स्वच्छ अस्पताल वातावरण।"</p><div class="who"><span class="avatar">R</span><span><b>Rakesh</b><br><small>Bihar</small></span></div></blockquote>
+                <blockquote class="card quote-card"><div class="stars">★★★★★</div><p class="lang-en">"Affordable treatment with compassionate healthcare."</p><p class="lang-hi">"करुणामय स्वास्थ्य सेवा के साथ किफायती उपचार।"</p><div class="who"><span class="avatar">A</span><span><b>Anjali</b><br><small>Muzaffarpur</small></span></div></blockquote>
+                <blockquote class="card quote-card"><div class="stars">★★★★★</div><p class="lang-en">"The emergency team responded quickly and saved precious time."</p><p class="lang-hi">"आपातकालीन टीम ने तेजी से प्रतिक्रिया दी और कीमती समय बचाया।"</p><div class="who"><span class="avatar">S</span><span><b>Suresh</b><br><small>Sitamarhi</small></span></div></blockquote>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn" data-prev aria-label="Previous">‹</button>
+              <div class="slider-dots"></div>
+              <button class="slider-btn" data-next aria-label="Next">›</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section" style="padding-top:0">
+        <div class="container">
+          <div class="cta-band reveal">
+            <div>
+              <h2 class="lang-en">Need care today? We are open 24×7.</h2>
+              <h2 class="lang-hi">आज देखभाल चाहिए? हम 24×7 खुले हैं।</h2>
+              <p class="lang-en">Book an appointment online or call our team for online consultation.</p>
+              <p class="lang-hi">ऑनलाइन अपॉइंटमेंट बुक करें या ऑनलाइन परामर्श के लिए कॉल करें।</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-call btn-lg" href="tel:+919006008932"><span>📞</span> +91 9006008932</a>
+              <a class="btn btn-ghost btn-lg" href="booking.html"><span class="lang-en">Book Now</span><span class="lang-hi">बुक करें</span></a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-flex">
-        <div>
-          <h3>Krishna Multispeciality Hospital</h3>
-          <p class="lang-en">Compassion • Care • Excellence</p>
-          <p class="lang-hi">करुणा • देखभाल • उत्कृष्टता</p>
-        </div>
-        <div>
-          <p>+91 9006008932</p>
-          <p>kmshospital7@gmail.com</p>
-          <p>www.kmshospitals.com</p>
-        </div>
-      </div>
-    </footer>
+    <div id="site-footer"></div>
+    <div id="site-floating"></div>
 
-    <a class="floating-call" href="tel:+919006008932" aria-label="Call hospital">
-      <span>📞</span>
-      <span class="lang-en">Call Now</span>
-      <span class="lang-hi">अब कॉल करें</span>
-    </a>
-
-    <script src="js/script.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
