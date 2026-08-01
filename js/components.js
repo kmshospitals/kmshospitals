@@ -64,7 +64,7 @@
           '</a>' +
           '<nav class="nav-shell" id="navShell">' + links + '</nav>' +
           '<div class="header-actions">' +
-            '<div class="header-desktop-actions" style="display:flex;gap:0.6rem;align-items:center">' +
+            '<div class="header-desktop-actions">' +
               '<button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">' +
                 '<span class="lang-en">हिन्दी</span><span class="lang-hi">English</span></button>' +
               '<a class="btn btn-call" href="tel:' + PHONE + '">' +

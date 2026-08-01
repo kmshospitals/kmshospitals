@@ -127,10 +127,11 @@ body.is-hindi .lang-hi { display: revert; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.2rem;
+  gap: 1rem;
   padding: 0.7rem 0;
+  flex-wrap: wrap;
 }
-.brand { display: flex; align-items: center; gap: 0.75rem; }
+.brand { display: flex; align-items: center; gap: 0.75rem; min-width: 0; }
 .brand-logo {
   height: 58px;
   width: 58px;
@@ -146,7 +147,17 @@ body.is-hindi .lang-hi { display: revert; }
 .brand-title { color: var(--navy); font-weight: 700; font-size: 1.02rem; letter-spacing: 0.2px; }
 .brand-subtitle { font-size: 0.72rem; color: var(--green-dark); font-weight: 600; letter-spacing: 0.5px; }
 
-.header-actions { display: flex; align-items: center; gap: 0.6rem; }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+.header-desktop-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 
 /* ---------- Nav ---------- */
 .nav-shell { display: flex; align-items: center; gap: 0.2rem; }
@@ -607,6 +618,8 @@ h3 { font-size: 1.2rem; }
   }
   body.menu-open .nav-overlay { opacity: 1; visibility: visible; }
   .header-desktop-actions { display: none; }
+  .topbar-flex { gap: 0.7rem; }
+  .header-actions { margin-left: 0; }
 }
 
 @media (max-width: 620px) {
@@ -616,6 +629,9 @@ h3 { font-size: 1.2rem; }
   .cta-band { text-align: center; justify-content: center; }
   .cta-band .cta-actions { justify-content: center; }
   .brand-subtitle { display: none; }
+  .brand-title { font-size: 0.92rem; }
+  .brand-logo { height: 46px; width: 46px; }
+  .lang-toggle { padding: 0.48rem 0.75rem; font-size: 0.8rem; }
   .topline { display: none; }
   .footer-bottom { justify-content: center; text-align: center; }
 }
