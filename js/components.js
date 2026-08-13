@@ -8,6 +8,7 @@
 
   var PHONE = '+919006008932';
   var PHONE2 = '+919122295023';
+  var LANDLINE = '06226-326970';
   var EMAIL = 'kmshospital7@gmail.com';
 
   /* ---- Animated emblem based on the real hospital logo ---- */
@@ -58,8 +59,10 @@
             '<img class="brand-logo" src="assets/logo.png" alt="Krishna Multispeciality Hospital logo" />' +
             '<span class="brand-text">' +
               '<span class="brand-title">Krishna Multispeciality Hospital</span>' +
-              '<span class="brand-subtitle lang-en">Compassion • Care • Excellence</span>' +
-              '<span class="brand-subtitle lang-hi">करुणा • देखभाल • उत्कृष्टता</span>' +
+              '<span class="brand-subtitle lang-en">Complete care for you and your family</span>' +
+              '<span class="brand-subtitle lang-hi">आप और आपके परिवार के लिए पूर्ण देखभाल</span>' +
+              '<span class="brand-subtitle lang-en" style="font-size: 0.85em; margin-top: 0.25rem; opacity: 0.85">Compassion • Care • Excellence</span>' +
+              '<span class="brand-subtitle lang-hi" style="font-size: 0.85em; margin-top: 0.25rem; opacity: 0.85">करुणा • देखभाल • उत्कृष्टता</span>' +
             '</span>' +
           '</a>' +
           '<nav class="nav-shell" id="navShell">' + links + '</nav>' +
@@ -113,7 +116,7 @@
               '<ul class="f-contact">' +
                 '<li>📍 <span class="lang-en">Ring Bandh, Mathura High School Road, Near Narayan Vivah Bhawan, Sitamarhi, Bihar, India</span>' +
                      '<span class="lang-hi">रिंग बंध, मथुरा हाई स्कूल रोड, नारायण विवाह भवन के पास, सीतामढ़ी, बिहार, भारत</span></li>' +
-                '<li>📞 <a href="tel:' + PHONE + '">+91 9006008932</a>, <a href="tel:' + PHONE2 + '">+91 9122295023</a></li>' +
+                '<li>📞 <a href="tel:' + PHONE + '">+91 9006008932</a>, <a href="tel:' + PHONE2 + '">+91 9122295023</a>, <a href="tel:' + LANDLINE + '">06226-326970</a></li>' +
                 '<li>✉️ <a href="mailto:' + EMAIL + '">' + EMAIL + '</a></li>' +
                 '<li>🌐 www.kmshospitals.com</li>' +
               '</ul>' +
