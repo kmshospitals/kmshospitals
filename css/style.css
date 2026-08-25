@@ -291,6 +291,36 @@ h3 { font-size: 1.2rem; }
 .hero-trust span { display: inline-flex; align-items: center; gap: 0.45rem; font-weight: 500; }
 .hero-trust b { color: var(--green-dark); }
 
+.service-availability {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.availability-item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  padding: 1.2rem 1.35rem;
+}
+.availability-coming { border-left-color: var(--accent); }
+.availability-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--green-dark);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+.availability-coming .availability-status { color: var(--accent-dark); }
+.status-dot { width: 8px; height: 8px; background: currentColor; border-radius: 50%; }
+.availability-item h2 { font-size: 1.12rem; margin: 0.45rem 0 0.25rem; }
+.availability-item p { color: var(--muted); font-size: 0.88rem; line-height: 1.55; margin: 0; }
+
 .hero-visual { position: relative; }
 .hero-photo {
   border-radius: var(--radius-lg);
@@ -631,6 +661,7 @@ h3 { font-size: 1.2rem; }
 }
 
 @media (max-width: 620px) {
+  .service-availability { grid-template-columns: 1fr; margin-top: 2.5rem; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .card-grid, .card-grid.two-up, .card-grid.four-up, .chip-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
