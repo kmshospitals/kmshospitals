@@ -330,7 +330,20 @@ h3 { font-size: 1.2rem; }
   transition: transform 0.5s ease;
 }
 .hero-photo:hover { transform: rotate(0); }
-.hero-photo img { height: 460px; width: 100%; object-fit: cover; }
+.hero-photo img { height: 460px; width: 100%; object-fit: cover; object-position: center 24%; }
+.hero-founder {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: var(--green);
+  color: #fff;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08rem;
+}
 .hero-emblem {
   position: absolute;
   top: -26px;
@@ -443,7 +456,7 @@ h3 { font-size: 1.2rem; }
 /* ---------- Doctor cards ---------- */
 .doctor-card { text-align: center; padding-bottom: 1.3rem; }
 .doctor-photo { position: relative; overflow: hidden; }
-.doctor-photo img { height: 280px; object-fit: cover; transition: transform 0.5s ease; }
+.doctor-photo img { display: block; width: 100%; height: 280px; object-fit: cover; transition: transform 0.5s ease; }
 .doctor-card:hover .doctor-photo img { transform: scale(1.06); }
 .doctor-photo .dept-tag {
   position: absolute; bottom: 10px; left: 10px;
@@ -451,6 +464,8 @@ h3 { font-size: 1.2rem; }
   padding: 0.3rem 0.8rem; border-radius: 999px; font-size: 0.76rem; font-weight: 600;
 }
 .doctor-card h3 { margin: 1rem 0 0.15rem; font-size: 1.12rem; }
+.doctor-name { display: flex; align-items: center; justify-content: center; gap: 0.55rem; flex-wrap: wrap; }
+.doctor-title { color: var(--green-dark); font-size: 0.72rem; letter-spacing: 0.06rem; }
 .doctor-card .role { color: var(--green-dark); font-weight: 600; font-size: 0.9rem; }
 .doctor-card .quals { color: var(--muted); font-size: 0.82rem; margin: 0.3rem 1rem 0.6rem; }
 .doctor-card .socials { display: flex; justify-content: center; gap: 0.5rem; }
